@@ -40,6 +40,13 @@ The annotated sheet will be saved to the same folder as `app.py` with the name `
 eyJoaXN0b3J5IjpbMzIwNzQwOTEwLC0xNTU5OTIxNjkyLC0xMj
 Y4MTYxMTY5LC0xOTUzMTQwMTc1LC0xMjE1MDg4OTYyXX0=
 -->
+## Deploy
+
+By following the **Docker** instructions above, you can deploy the service to any platform that supports running containers.
+
+Clicking the following will execute the Docker build on a remote machine and deploy the service to [Google Cloud Run](https://cloud.run) an automatically scaled and pay-per-request environment:
+
+[![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_image=gcr.io/cloudrun/button&cloudshell_git_repo=https://github.com/oclef/web-omr)
 
 ## Acknowledgements
 A huge thanks to Calvo-Zaragoza et al. for building this awesome deep learning model, and for sharing the trained model, dataset and code.
